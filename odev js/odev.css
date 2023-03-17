@@ -1,0 +1,26 @@
+#takimbayragi {
+  width: 410px;
+  height: 400px;
+  background-color: gray;
+  margin: auto;
+}
+#solkisim,
+#sagkisim {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+#solkisim {
+  background-color: aquamarine;
+}
+#sagkisim {
+  background-color: blueviolet;
+}
+#secimli_radyo {
+  background-color: cornflowerblue;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  height: 40px;
+  border-radius: 10px;
+}

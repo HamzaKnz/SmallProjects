@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>^+&%(&(=)_?)=(&%/&(&/)/(</title>
+</head>
+<body>
+    <button id="btn" onkey>Yazdır</button>
+    <input id="mesaj" type="text">
+    <div id="sonuc"></div>
+    <script>
+ 
+        btn.onclick=function(){
+            sonuc.innerHTML+=mesaj.value+"<br>"
+            mesaj.value=""
+        }
+ 
+        mesaj.onkeyup=function(e){
+            if(e.code=="Enter")
+            {
+               //butonu çalıştır
+               document.querySelector("#btn").onclick()
+ 
+            }
+        }
+    </script>
+</body>
+</html>

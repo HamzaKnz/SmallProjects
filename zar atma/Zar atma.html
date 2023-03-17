@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    
+    function zar_at_simdi(){
+        var zar1, zar2;
+        zar1 =Math.floor( Math.random()*6 +1 );
+        zar2 =Math.floor( Math.random()*6+1);
+       
+document.getElementById("zar1_yeri").innerHTML ="<img src=" + zar1 + ".jpg>";
+document.getElementById("zar2_yeri").innerHTML ="<img src="+ zar2 + ".jpg>";
+
+    }
+    </script>
+</head>
+<body>
+   <input type="button" value="Zar At" onclick="zar_at_simdi();">
+<div id="zar1_yeri"></div>
+<div id="zar2_yeri"></div>
+</body>
+</html>

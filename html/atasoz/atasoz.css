@@ -1,0 +1,27 @@
+#kutu {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-image: url('images/blackboard1.jpg');
+    background-size: cover;
+    background-color: antiquewhite;
+}
+
+#resim {
+    width: 100%;
+}
+
+#gunun_sozu_alani {
+    font-family: 'Corinthia', cursive;
+
+    width: 70%;
+    font-size: 50px;
+    color: azure;
+
+    top: 149px;
+    left: 60px;
+    position: relative;
+    float: left;
+    text-align: center;
+
+}

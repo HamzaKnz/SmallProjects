@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buyuk_div_style {
+    width: 480px;
+    height: 480px;
+    border-style: double;
+    background-color: bisque;
+    margin: auto;
+}
+
+.kucuk_div_style {
+    width: 52px;
+    height: 52px;
+    border-style: double;
+    border-color: darkgoldenrod;
+    background-color: cornsilk;
+    color: brown;
+    float: left;
+    margin: 1px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.kirmizi_zemin {
+    background-color: brown;
+    color: cornsilk;
+}

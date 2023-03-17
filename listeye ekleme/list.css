@@ -1,0 +1,10 @@
+input{
+    padding:8px 30px;
+    margin-right:10px;
+}
+button{
+    background: #5f27cd;
+    color:#fff;
+    border:none;
+    padding:10px 30px;
+}

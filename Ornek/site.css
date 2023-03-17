@@ -1,0 +1,115 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/zemin_1.jpg");
+}
+
+#ustalan {
+    background-image: url("images/banner-700x142.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30%;
+    width: 80%;
+    margin: auto;
+}
+
+#kat_1 {
+    background-image: url();
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+#menu {
+    width: 20%;
+    float: left;
+    height: 100%;
+    background-color: black;
+}
+
+#icerikalani {
+    width: 100%;
+    height: 100%;
+    background-color: goldenrod;
+}
+
+#icerikalani img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    padding: 10px;
+
+}
+#icerikalani .galeri_resmi{
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#icerikalani p {
+    width: 60%;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+#altalan {
+    height: 10%;
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+#altalan p {
+    line-height: 55px;
+}
+
+.sidebar {
+
+    width: 160px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}

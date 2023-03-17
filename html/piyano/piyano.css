@@ -1,0 +1,44 @@
+#piyano {
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background-image: url("images/piyano.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.nota_konum {
+    position: relative;
+    top: 90%;
+    font-size: 30px;
+    float: left;
+    width: 20px;
+}
+
+#do {
+    left: 10%;
+}
+
+#re {
+    left: 20%;
+}
+
+#mi {
+    left: 28%;
+}
+
+#fa {
+    left: 38%;
+}
+
+#sol {
+    left: 46%;
+}
+
+#la {
+    left: 55%;
+}
+
+#si {
+    left: 65%;
+}
